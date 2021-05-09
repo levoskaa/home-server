@@ -12,6 +12,8 @@ Service | Description | Status
 [pihole-updatelists](https://github.com/jacklul/pihole-updatelists) | Automatic update tool for remote lists for Pi-hole | :heavy_check_mark:
 [Commonly whitelisted domains #1](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212) | Whitelisting tips for Pi-hole | :heavy_check_mark:
 [Commonly whitelisted domains #2](https://github.com/anudeepND/whitelist) | Collection of commonly whitelisted domains for Pi-Hole | :heavy_check_mark:
+[https://firebog.net](https://v.firebog.net/hosts/lists.php?type=tick) | Adlists for Pi-hole | :heavy_check_mark:
+[pihole-regex](https://github.com/mmotti/pihole-regex) | Regex filters for Pi-hole | :heavy_check_mark:
 [ufw-docker](https://github.com/chaifeng/ufw-docker) | Fix for the Docker and UFW security flaw | :heavy_check_mark:
 [OpenVPN](https://openvpn.net) | VPN Solution | :heavy_minus_sign:
 [Heimdall](https://github.com/linuxserver/Heimdall) | Application dashboard and launcher | :heavy_minus_sign:
