@@ -15,8 +15,8 @@ Service | Description | Status
 [https://firebog.net](https://v.firebog.net/hosts/lists.php?type=tick) | Adlists for Pi-hole | :heavy_check_mark:
 [pihole-regex](https://github.com/mmotti/pihole-regex) | Regex filters for Pi-hole | :heavy_check_mark:
 [ufw-docker](https://github.com/chaifeng/ufw-docker) | Fix for the Docker and UFW security flaw | :heavy_check_mark:
-[OpenVPN](https://openvpn.net) | VPN Solution | :heavy_minus_sign:
-[Heimdall](https://github.com/linuxserver/Heimdall) | Application dashboard and launcher | :heavy_minus_sign:
+[OpenVPN](https://openvpn.net) | VPN solution | :heavy_minus_sign:
+[Heimdall](https://heimdall.site) | Application dashboard and launcher | :heavy_minus_sign:
 [Watchtower](https://containrrr.dev/watchtower/) | Solution for automating Docker container base image updates | :heavy_minus_sign:
 [Jellyfin](https://jellyfin.org) | The Free Software Media System | :heavy_minus_sign:
 [Samba](https://www.samba.org) | Standard Windows interoperability suite of programs for Linux | :heavy_minus_sign:
