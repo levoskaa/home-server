@@ -21,5 +21,6 @@ Service | Description | Status
 [Jellyfin](https://jellyfin.org) | The Free Software Media System | :heavy_minus_sign:
 [Samba](https://www.samba.org) | Standard Windows interoperability suite of programs for Linux | :heavy_minus_sign:
 [HandBrake](https://handbrake.fr) | Open source video transcoder | :heavy_minus_sign:
-[NGINX Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/) | Reverse Proxy solution | :heavy_minus_sign:
-[firewalld](https://firewalld.org) | Dynamically managed firewall | :grey_question:
+[Nginx Proxy Manager](https://nginxproxymanager.com) | Reverse Proxy solution | :memo:
+[firewalld](https://firewalld.org) | Dynamically managed firewall | :memo:
+[RPi-Monitor](https://github.com/XavierBerger/RPi-Monitor) | Real time monitoring tool for embedded devices | :memo:
