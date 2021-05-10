@@ -7,7 +7,7 @@ Service | Description | Status
 [DDclient](https://github.com/ddclient/ddclient) | Perl client used to update dynamic DNS entries | :heavy_check_mark:
 [Portainer](https://www.portainer.io) | Container management tool | :heavy_check_mark:
 [Watchtower](https://containrrr.dev/watchtower/) | Solution for automating Docker container base image updates | :heavy_minus_sign:
-[Heimdall](https://heimdall.site) | Application dashboard and launcher | :heavy_minus_sign:
+[Heimdall](https://heimdall.site) | Application dashboard and launcher | :heavy_check_mark:
 [dhcp-helper](http://manpages.ubuntu.com/manpages/xenial/man8/dhcp-helper.8.html) | DHCP/BOOTP relay agent | :heavy_check_mark:
 [RPi-Monitor](https://github.com/XavierBerger/RPi-Monitor) | Real time monitoring tool for embedded devices | :memo:
 [Netdata](https://www.netdata.cloud) | Infrastructure monitoring and troubleshooting tool | :heavy_check_mark:
