@@ -1,0 +1,4 @@
+FROM alpine:latest
+RUN apk update && apk --no-cache add dhcp-helper
+EXPOSE 67/udp
+ENTRYPOINT ["dhcp-helper", "-n"]
