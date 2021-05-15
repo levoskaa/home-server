@@ -1,0 +1,15 @@
+version: "2"
+
+services:
+  minecraft:
+    container_name: minecraft
+    hostname: minecraft
+    image: levos/atm3-lite:latest    
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    ports:
+      - 25565:25565
+    volumes:
+      # Attach a directory relative to the directory containing this compose file
+      - /etc/minecraft/data:/data
+    restart: always
