@@ -1,0 +1,52 @@
+version: "2"
+
+# More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+services:
+  pihole:
+    container_name: pihole
+    hostname: pihole
+    image: pihole/pihole:latest
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "8081:80/tcp"
+    environment:
+      TZ: 'Europe/Budapest'
+      WEBPASSWORD:
+      PIHOLE_DNS_: 8.8.8.8;8.8.4.4
+      DNSSEC: "true"
+      ServerIP: 172.16.1.5
+      DNSMASQ_LISTENING: all
+    # Volumes store your data between container upgrades
+    volumes:
+      - '/etc/pihole/etc-pihole/:/etc/pihole/'
+      - '/etc/pihole/etc-dnsmasq.d/:/etc/dnsmasq.d/'
+      - '/etc/pihole/etc-pihole-updatelists/:/etc/pihole-updatelists/'
+    # Recommended but not required (DHCP needs NET_ADMIN)
+    # https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
+    cap_add:
+      - NET_ADMIN
+    restart: always
+    networks:
+      backend:
+        ipv4_address: '172.20.0.100'
+    depends_on:
+      - dhcp-helper
+      
+  dhcp-helper:
+    container_name: dhcp-helper
+    hostname: dhcp-helper
+    image: levos/dhcp-helper:latest
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    network_mode: "host"
+    restart: always
+    command: -s 172.20.0.100
+    cap_add:
+      - NET_ADMIN
+      
+networks:
+  backend:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
