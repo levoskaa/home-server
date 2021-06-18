@@ -19,7 +19,8 @@ Service | Description | Status
 [pihole-regex](https://github.com/mmotti/pihole-regex) | Regex filters for Pi-hole | :heavy_check_mark:
 [ufw-docker](https://github.com/chaifeng/ufw-docker) | Fix for the Docker and UFW security flaw | :heavy_check_mark:
 [firewalld](https://firewalld.org) | Dynamically managed firewall | :memo:
-[OpenVPN](https://openvpn.net) | VPN solution | :heavy_minus_sign:
+[WireGuard](https://www.wireguard.com) | VPN solution | :heavy_check_mark:
+[OpenVPN](https://openvpn.net) | VPN solution | :memo:
 [Jellyfin](https://jellyfin.org) | The Free Software Media System | :heavy_minus_sign:
 [Samba](https://www.samba.org) | Standard Windows interoperability suite of programs for Linux | :heavy_minus_sign:
 [HandBrake](https://handbrake.fr) | Open source video transcoder | :heavy_minus_sign:
