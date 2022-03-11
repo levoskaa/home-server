@@ -24,6 +24,6 @@ Service | Description | Status
 [Jellyfin](https://jellyfin.org) | The Free Software Media System | :heavy_minus_sign:
 [Samba](https://www.samba.org) | Standard Windows interoperability suite of programs for Linux | :heavy_minus_sign:
 [HandBrake](https://handbrake.fr) | Open source video transcoder | :heavy_minus_sign:
-[Nginx Proxy Manager](https://nginxproxymanager.com) | Reverse Proxy solution | :memo:
+[Nginx Proxy Manager](https://nginxproxymanager.com) | Reverse Proxy solution | :heavy_check_mark:
 [Calibre OPDS](https://blog.slucas.fr/projects/calibre-opds-php-server/) | Web-based light alternative to Calibre content server | :heavy_minus_sign:
 [Nextcloud](https://nextcloud.com) | Self-hosted productivity platform | :heavy_minus_sign:
