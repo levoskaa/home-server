@@ -27,3 +27,4 @@ Service | Description | Status
 [Nginx Proxy Manager](https://nginxproxymanager.com) | Reverse Proxy solution | :heavy_check_mark:
 [Calibre OPDS](https://blog.slucas.fr/projects/calibre-opds-php-server/) | Web-based light alternative to Calibre content server | :heavy_minus_sign:
 [Nextcloud](https://nextcloud.com) | Self-hosted productivity platform | :heavy_minus_sign:
+[Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden server implementation | :heavy_check_mark:
