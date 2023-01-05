@@ -4,7 +4,7 @@
 Service | Description | Status
 --- | --- | :---:
 [Dynu](https://www.dynu.com) | Dynamic DNS service provider | :heavy_check_mark:
-[DDclient](https://github.com/ddclient/ddclient) | Perl client used to update dynamic DNS entries | :heavy_check_mark:
+[~DDclient~](https://github.com/ddclient/ddclient) | ~Perl client used to update dynamic DNS entries~ replaced with cURL + crontab | :heavy_check_mark:
 [Portainer](https://www.portainer.io) | Container management tool | :heavy_check_mark:
 [Watchtower](https://containrrr.dev/watchtower/) | Solution for automating Docker container base image updates | :heavy_check_mark:
 [Heimdall](https://heimdall.site) | Application dashboard and launcher | :heavy_check_mark:
