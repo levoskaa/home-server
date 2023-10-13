@@ -26,7 +26,8 @@ Service | Description | Status
 [Samba](https://www.samba.org) | Standard Windows interoperability suite of programs for Linux | :heavy_minus_sign:
 [HandBrake](https://handbrake.fr) | Open source video transcoder | :heavy_minus_sign:
 [Nginx Proxy Manager](https://nginxproxymanager.com) | Reverse Proxy solution | :heavy_check_mark:
-[Calibre OPDS](https://blog.slucas.fr/projects/calibre-opds-php-server/) | Web-based light alternative to Calibre content server | :heavy_minus_sign:
+[Calibre OPDS](https://blog.slucas.fr/projects/calibre-opds-php-server/) | Web-based light alternative to Calibre content server | 📝
+[Calibre-Web](https://github.com/janeczku/calibre-web) | Calibre-Web is a web app that offers a clean and intuitive interface for browsing, reading, and downloading eBooks using a valid Calibre database. | ✔️
 [Nextcloud](https://nextcloud.com) | Self-hosted productivity platform | :heavy_minus_sign:
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden server implementation | :heavy_check_mark:
 [nCore login](https://github.com/levoskaa/ncore-login) | Scheduled login script for nCore to prevent account lock | :heavy_check_mark:
