@@ -1,0 +1,18 @@
+version: "2.1"
+
+services:
+  duplicati:
+    image: linuxserver/duplicati
+    container_name: duplicati
+    hostname: duplicati
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Budapest
+    volumes:
+      - /srv/Config/Duplicati:/Config # Config files
+      - /srv/Backups:/BackupStorage # Backup storage
+      - /data/compose/19/vw-data:/VaultWardenBackup # What to backup
+    ports:
+      - 8200:8200
+    restart: unless-stopped
