@@ -1,0 +1,36 @@
+version: "3"
+
+services:
+  onedrive-client:
+    container_name: onedrive-client
+    hostname: onedrive-client
+    image: driveone/onedrive:debian
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    restart: always
+    environment:
+      - ONEDRIVE_UID=1000
+      - ONEDRIVE_GID=1000
+      - ONEDRIVE_RESYNC=${ONEDRIVE_RESYNC}
+    volumes:
+      - /etc/one-drive-client/conf:/onedrive/conf
+      - /etc/one-drive-client/data:/onedrive/data
+
+  calibre-web:
+    container_name: calibre-web
+    hostname: calibre-web
+    image: lscr.io/linuxserver/calibre-web:latest
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    restart: always
+    ports:
+      - "8085:8083"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Budapest
+      - DOCKER_MODS=linuxserver/mods:universal-calibre
+      - CALIBRE_RECONNECT=${CALIBRE_RECONNECT}
+    volumes:
+      - /etc/calibre-web/config:/config
+      - /etc/one-drive-client/data/Könyvek:/books
