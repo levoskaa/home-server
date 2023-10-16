@@ -18,6 +18,7 @@ Service | Description | Status
 [Commonly whitelisted domains #2](https://github.com/anudeepND/whitelist) | Collection of commonly whitelisted domains for Pi-Hole | :heavy_check_mark:
 [The Firebog](https://firebog.net) | Adlists for Pi-hole | :heavy_check_mark:
 [pihole-regex](https://github.com/mmotti/pihole-regex) | Regex filters for Pi-hole | :heavy_check_mark:
+[oisd](https://oisd.nl/faq) | Blocklist for Pi-hole that focuses on not breaking websites | 📝
 [ufw-docker](https://github.com/chaifeng/ufw-docker) | Fix for the Docker and UFW security flaw | :heavy_check_mark:
 [firewalld](https://firewalld.org) | Dynamically managed firewall | :memo:
 [WireGuard](https://www.wireguard.com) | VPN solution | :heavy_check_mark:
