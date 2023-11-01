@@ -32,3 +32,4 @@ Service | Description | Status
 [Nextcloud](https://nextcloud.com) | Self-hosted productivity platform | :heavy_minus_sign:
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | Unofficial Bitwarden server implementation | :heavy_check_mark:
 [nCore login](https://github.com/levoskaa/ncore-login) | Scheduled login script for nCore to prevent account lock | :heavy_check_mark:
+[Duplicati](https://www.duplicati.com/) | Free backup software to store encrypted backups online | :heavy_check_mark:
