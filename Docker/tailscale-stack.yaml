@@ -17,3 +17,5 @@ services:
       - NET_RAW
     environment:
       - TS_AUTHKEY=${TAILSCALE_AUTH_KEY}
+      - TS_HOSTNAME=raspberry-pi
+      - TS_ROUTES=172.16.1.0/24
