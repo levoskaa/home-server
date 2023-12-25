@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  cloudflare-tunnel:
+    container_name: cloudflare-tunnel
+    hostname: cloudflare-tunnel
+    image: cloudflare/cloudflared
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    restart: always
+    network_mode: host
+    command: tunnel run
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
